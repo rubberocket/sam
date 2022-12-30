@@ -6,6 +6,7 @@
   "private": false,
   "main": "dist/samjs.min.js",
   "module": "dist/samjs.esm.min.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "dev": "rollup -w -c build/config.js --environment TARGET:dev",
     "dev:cjs": "rollup -w -c build/config.js --environment TARGET:cjs",
